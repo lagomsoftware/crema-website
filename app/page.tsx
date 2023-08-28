@@ -4,7 +4,7 @@ import SignupForm from "@/components/signup-form";
 
 export default function Home() {
   return (
-    <header className="flex flex-col items-center min-h-screen py-24 px-7 sm:justify-center sm:px-10 sm:py-10">
+    <header className="flex flex-col items-center min-h-screen py-24 px-7 sm:justify-center sm:px-10 sm:py-32">
       <h1 className="text-5xl font-semibold tracking-tight text-center sm:text-6xl">
         Crema
       </h1>
