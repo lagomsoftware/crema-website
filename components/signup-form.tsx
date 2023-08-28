@@ -44,6 +44,8 @@ export default function SignupForm() {
         id="email"
         name="email"
         type="email"
+        minLength={0}
+        maxLength={256}
         value={form.values.email}
         onChange={form.handleChange}
         placeholder="jane.doe@email.com"
